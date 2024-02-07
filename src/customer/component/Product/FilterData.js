@@ -14,7 +14,7 @@ export const filters = [
         id: 'color',
         name: 'Color',
         options: [
-            { value: 'white', label: 'White', checked: false },
+            { value: 'white', label: 'White', checked: true },
             { value: 'beige', label: 'Beige', checked: false },
             { value: 'blue', label: 'Blue', checked: false },
             { value: 'brown', label: 'Brown', checked: false },
@@ -75,7 +75,7 @@ export const singleFilters = [
         id: "stock",
         name: "Availability",
         options: [
-            { value: "in_stock", label: "In Stock" },
+            { value: "in_stock", label: "In Stock", },
             { value: "out_of_stack", label: "Out of Stack" },
         ],
     },

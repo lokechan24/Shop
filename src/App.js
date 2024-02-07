@@ -24,12 +24,12 @@ function App() {
       </header> */}
       <Navigation />
       <div>
-        <HomePage />
+        <HomePage/>
         <Product/> 
       </div>
       <Footer/>
     </div>
   );
 }
-
+//hello world;
 export default App;
