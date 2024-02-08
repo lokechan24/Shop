@@ -1,7 +1,9 @@
 import React from 'react';
 
 import ReactDOM from 'react-dom';
+
 import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
+
 import App from './App';
 
 ReactDOM.render(
@@ -10,5 +12,5 @@ ReactDOM.render(
     <App/>
   </Router>,
   document.getElementById('root')
-
+//thank you padma
 );
