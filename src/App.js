@@ -4,7 +4,7 @@ import Footer from './customer/component/Footer/Footer';
 import Navigation from './customer/component/Navigation/Navigation';
 import Product from './customer/component/Product/Product';
 import HomePage from './customer/pages/HomePages/HomePages';
-
+import ProductDetails from './customer/component/ProductDetails/ProductDetails';
 function App() {
   return (
     <div className="">
@@ -26,6 +26,7 @@ function App() {
       <div>
         <HomePage/>
         <Product/> 
+        <ProductDetails/>
       </div>
       <Footer/>
     </div>
